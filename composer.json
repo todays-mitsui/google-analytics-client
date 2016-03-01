@@ -1,0 +1,23 @@
+{
+    "name": "team_qh/db-report",
+    "authors": [
+        {
+            "name": "Mitsui",
+            "email": "mitsui@queserser-j.co.jp"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dimensions\\":                "Classes/Dimensions/",
+            "Filters\\":                   "Classes/Filters/",
+            "Metrics\\":                   "Classes/Metrics/",
+            "Request\\":                   "Classes/Request/",
+            "Segment\\":                   "Classes/Segment/",
+            "Segment\\SegmentCondition\\": "Classes/Segment/SegmentCondition/",
+            "Servise\\":                   "Classes/Servise/"
+        }
+    }
+}
