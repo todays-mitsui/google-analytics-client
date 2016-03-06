@@ -11,13 +11,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Dimensions\\":                "Classes/Dimensions/",
-            "Filters\\":                   "Classes/Filters/",
-            "Metrics\\":                   "Classes/Metrics/",
-            "Request\\":                   "Classes/Request/",
-            "Segment\\":                   "Classes/Segment/",
-            "Segment\\SegmentCondition\\": "Classes/Segment/SegmentCondition/",
-            "Servise\\":                   "Classes/Servise/"
+            "Dimensions\\":         "Classes/Dimensions/",
+            "Filters\\":            "Classes/Filters/",
+            "Metrics\\":            "Classes/Metrics/",
+            "Query\\":              "Classes/Query/",
+            "Request\\":            "Classes/Request/",
+            "Segment\\":            "Classes/Segment/",
+            "Segment\\Condition\\": "Classes/Segment/Condition/",
+            "Servise\\":            "Classes/Servise/"
         }
     }
 }
